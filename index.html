@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup and Login</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+          background-color:rgb(116, 194, 150);
+        }
+        div{
+            font-size: 20px;
+            margin-left: 400px;
+        }
+        h1{
+            color:tomato;
+            margin-top: 80px;
+        }
+        button{
+            font-size: 23px;
+            margin-top: 110px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Welcome to Chandigarh University</h1>
+    <button style="margin-left: 180px;" onclick="openSignup()">Signup</button>
+    <button onclick="openLogin()">Login</button>
+</div>
+    <script>
+        function openSignup() {
+            window.location.href = "/signup";
+        }
+
+        function openLogin() {
+            window.location.href = "/login";
+        }
+    </script>
+</body>
+</html>
